@@ -1,0 +1,3 @@
++incdir+hawk/verif/vkits/hawk
+hawk/verif/vkits/hawk/hawk_intf.sv
+hawk/verif/vkits/hawk/hawk_pkg.sv

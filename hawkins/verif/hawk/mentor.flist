@@ -1,0 +1,9 @@
++incdir+hawk/verif/hawk
++incdir+hawk/verif/uvm_common
++incdir+hawk/verif/hdl
++incdir+hawk/verif/hawk/tests
+hawk/verif/hawk/hawk_tb_top.sv
+hawk/verif/hawk/tests/basic.sv
+hawk/verif/hawk/tests/base_test.sv
+hawk/verif/hawk/tests/nak.sv
+hawk/verif/hawk/tests/bad_crc.sv

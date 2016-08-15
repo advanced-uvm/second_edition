@@ -1,0 +1,5 @@
+-P /nfs/cacadtools/synopsys/verdi/J-2014.12-SP1/share/PLI/VCS/LINUX64/novas.tab /nfs/cacadtools/synopsys/verdi/J-2014.12-SP1/share/PLI/VCS/LINUX64/pli.a
++incdir+root/verif/vkits/cmn
+root/verif/vkits/cmn/cmn_clk_intf.sv
+root/verif/vkits/cmn/cmn_rst_intf.sv
+root/verif/vkits/cmn/cmn_pkg.sv

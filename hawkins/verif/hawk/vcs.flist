@@ -1,0 +1,26 @@
+-timescale=1ns/1fs 
+-unit_timescale=1ns/1fs 
+-sverilog 
++libext+.v+.sv 
++vcsd 
+-debug_pp
++define+UVM_USE_RESOURCE_CONVERTER
+
+-f root/verif/vkits/uvm/1_2/vcs.flist
+-f root/verif/vkits/cmn/vcs.flist
+-f root/verif/vkits/global/vcs.flist
+-f root/verif/vkits/hawk/vcs.flist
+
++incdir+root/verif/hawk
++incdir+root/verif/uvm_common
++incdir+root/verif/hdl
++incdir+tests
+hawk_tb_top.sv
+tests/basic.sv
+tests/base_test.sv
+tests/nak.sv
+tests/bad_crc.sv
+tests/link_level.sv
+tests/trans_level.sv
+tests/passive.sv
+

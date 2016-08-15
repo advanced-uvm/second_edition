@@ -1,0 +1,3 @@
++incdir+project/verif/vkits/uvm/1_1d/src
++define+PROJ_INCLUDES_UVM
+project/verif/vkits/uvm/1_1d/src/uvm_pkg.sv

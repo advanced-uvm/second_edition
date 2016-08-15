@@ -1,0 +1,44 @@
+213686 uvm: have the reg map print its full name on an error, so we know where to debug.
+
+195649 fix for 1_1d for uvm_reg::XatomicX function see http://osqa.caveonetworks.com/questions/523/uvm_reg-xatomicx-function-is-broken-in-uvm-11d-and-probably-12
+
+190105 1_2 with Cavium changes from r146137 (1_1d)
+
+152780 Synopsys' sparse register model
+
+125777 Fixed endif comment to make Eclipse/DVT happy
+
+125424 1_1c has changes that correlate with those in 1_1b @124394.
+
+125203 A clean uvm 1_1c src.
+
+Since we are aparently not capable of keeping this area in a relatively clean
+svn state, this readme file will serve as a log of which commits actually
+provide content change.
+
+Hopefully this will be useful when we migrate to the next version of UVM so
+that it is easy to apply all the necessary patches.
+
+124394  Temporary fix to stop putting NO_REG_HW_RESET_TEST entries into the
+        resource db per uvm_reg_field
+
+124095  Fixed potential issue in uvm_re_match which isn't in 1_1c, we probably
+        won't hit it as the code only comes into play when not using DPI for
+        regexp matching
+
+123683  Performance tune the reg's change, don't make local variables unless
+        needed for an error printout
+
+123574  Reapply John's prior fixes at 117393 and 117477 that were missed
+
+123300  Added full_name to TLM port "too few connections" error
+
+121460  Remove all direct calls to area_utils from the o78 tree
+
+121370  Change dpi to svn ignore obj directory, and add Makefile previously
+        added ...
+
+121316  This is a summary commit of all the changes we have made to the uvm
+        source ...
+
+121313  This is a clean uvm 1_1b src and uvm.flist
