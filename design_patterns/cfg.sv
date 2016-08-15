@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   cfg.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __CFG_SV__
+   `define __CFG_SV__
+
 // class: cfg_c
 class cfg_c extends uvm_object;
    `uvm_object_utils_begin(foo_pkg::cfg_c)
@@ -51,3 +61,5 @@ class cfg_c extends uvm_object;
    covergroup cg;
    endgroup : cg
 endclass : cfg_c
+
+`endif // __CFG_SV__

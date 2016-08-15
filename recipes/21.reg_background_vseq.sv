@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   21.reg_background_vseq.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __21_REG_BACKGROUND_VSEQ_SV__
+   `define __21_REG_BACKGROUND_VSEQ_SV__
+
 `include "cmn_reg_background_cfg.sv"
 
 // class: reg_background_vseq_c
@@ -71,3 +81,5 @@ class reg_background_vseq_c extends uvm_sequence;
       end
    endtask : body
 endclass : reg_background_vseq_c
+
+`endif // __21_REG_BACKGROUND_VSEQ_SV__

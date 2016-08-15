@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   7.heartbeat_mon.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __7_HEARTBEAT_MON_SV__
+   `define __7_HEARTBEAT_MON_SV__
+
 class heartbeat_mon_c extends uvm_component;
    `uvm_component_utils_begin(heartbeat_mon_c)
       `uvm_field_int(enabled,        UVM_COMPONENT)
@@ -187,3 +197,5 @@ class heartbeat_mon_c extends uvm_component;
          $display("  %-70s : %t", _comps[x].get_full_name(), objections[_comps[x]].last_raised_time);
    endfunction : summarize
 endclass : heartbeat_mon_c
+
+`endif // __7_HEARTBEAT_MON_SV__

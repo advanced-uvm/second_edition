@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   23.csqr.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __23_CSQR_SV__
+   `define __23_CSQR_SV___
+
 class csqr_c#(type UP_REQ=uvm_sequence_item, UP_TRAFFIC=UP_REQ,
               DOWN_REQ=uvm_sequence_item, DOWN_TRAFFIC=DOWN_REQ)
               extends uvm_sequencer#(DOWN_REQ);
@@ -144,3 +154,5 @@ class csqr_c#(type UP_REQ=uvm_sequence_item, UP_TRAFFIC=UP_REQ,
    virtual task down_traffic_user_task(ref DOWN_TRAFFIC _down_traffic);
    endtask : down_traffic_user_task
 endclass : csqr_c
+
+`endif // __23_CSQR_SV__

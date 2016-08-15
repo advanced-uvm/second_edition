@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   11.uid.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __11_UID_SV__
+   `define __11_UID_SV__
+
 class uid_c extends uvm_object;
    `uvm_object_utils(cmn_pkg::uid_c)
    //----------------------------------------------------------------------------------------
@@ -30,3 +40,5 @@ class uid_c extends uvm_object;
       convert2string = $sformatf("%s:%05d", get_name(), my_id);
    endfunction : convert2string
 endclass : uid_c
+
+`endif // __11_UID_SV__

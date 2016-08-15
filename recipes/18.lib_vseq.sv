@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   18.lib_vseq.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __18_LIB_VSEQ_SV__
+   `define __18_LIB_VSEQ_SV__
+
 // class: lib_vseq_c
 class lib_vseq_c extends uvm_sequence;
    `uvm_object_utils(cmn_pkg::lib_vseq_c)
@@ -73,3 +83,5 @@ class lib_vseq_c extends uvm_sequence;
       `cmn_seq_drop
    endtask : body
 endclass : lib_vseq_c
+
+`endif // __18_LIB_VSEQ_SV__

@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File: 15.rand_delays.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __15_RAND_DELAYS_SV__
+   `define __15_RAND_DELAYS_SV__
+
 class rand_delays_c extends uvm_object;
    //----------------------------------------------------------------------------------------
    // Group: Types
@@ -114,3 +124,6 @@ class rand_delays_c extends uvm_object;
       #(delay * wait_timescale);
    endtask : wait_next_delay
 endclass : rand_delays_c
+
+`endif // __15_RAND_DELAYS_SV__
+

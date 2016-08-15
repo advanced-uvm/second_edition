@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   18.lib_vseq_cfg.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __18_LIB_VSEQ_CFG_SV__
+   `define __18_LIB_VSEQ_CFG_SV__
+
 // class: lib_vseq_cfg_c
 class lib_vseq_cfg_c extends uvm_object;
    `uvm_object_utils_begin(cmn_pkg::lib_vseq_cfg_c)
@@ -70,3 +80,5 @@ class lib_vseq_cfg_c extends uvm_object;
       return(dist_chooser.get_next());
    endfunction : get_next_vseq
 endclass : lib_vseq_cfg_c
+
+`endif // __18_LIB_VSEQ_CFG_SV__

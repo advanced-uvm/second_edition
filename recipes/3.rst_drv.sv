@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   3.rst_drv.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __3_RST_DRV_SV__
+   `define __3_RST_DRV_SV__
+
 // class: rst_drv_c
 class rst_drv_c extends uvm_driver;
    `uvm_component_utils_begin(cmn_pkg::rst_drv_c)
@@ -96,3 +106,5 @@ class rst_drv_c extends uvm_driver;
       phase.drop_objection(this);   // and drop the objection
    endtask : reset_phase
 endclass : rst_drv_c
+
+`endif // __3_RST_DRV_SV__

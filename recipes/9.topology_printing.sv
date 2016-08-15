@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   9.topology_printing.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __9_TOPOLOGY_PRINTING_SV__
+   `define __9_TOPOLOGY_PRINTING_SV__
+
    ////////////////////////////////////////////
    // func: start_of_simualtion_phase
    // Print the topology
@@ -19,3 +29,5 @@
          `cmn_info(("Printing the topology at depth %0d:\n%s", depth, topology))
       end
    endfunction : start_of_simulation_phase
+
+`endif // __9_TOPOLOGY_PRINTING_SV__

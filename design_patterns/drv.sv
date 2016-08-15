@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   drv.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __DRV_SV__
+   `define __DRV_SV__
+
 // class: drv_c
 class drv_c extends uvm_driver#(item_c);
    `uvm_component_utils_begin(my_pkg::drv_c)
@@ -139,3 +149,5 @@ class drv_c extends uvm_driver#(item_c);
          _item.uid = most_recent.uid;
    endfunction : write_downstream
 endclass : drv_c
+
+`endif // __DRV_SV__

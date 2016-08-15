@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   14.dist_chooser.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __14_DIST_CHOOSER_SV__
+   `define __14_DIST_CHOOSER_SV__
+
 // class: dist_chooser_c
 // Create an instance of this type, parameterized to the objects to be
 // pulled out. Call add_item() for each of the different values to be
@@ -104,3 +114,6 @@ class dist_chooser_c#(type TYPE=int) extends uvm_object;
       return(values[rand_idx]);
    endfunction : get_next
 endclass : dist_chooser_c
+
+`endif // __14_DIST_CHOOSER_SV__
+

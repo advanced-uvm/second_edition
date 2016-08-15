@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   21.reg_background_cfg.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __21_REG_BACKGROUND_CFG_SV__
+   `define __21_REG_BACKGROUND_CFG_SV__
+
 `include "cmn_rand_delay.sv"
 
 // class: reg_background_cfg_c
@@ -30,3 +40,5 @@ class reg_background_cfg_c extends uvm_object;
       rand_delays = cmn_pkg::rand_delays_c::type_id::create("rand_delays");
    endfunction : new
 endclass : reg_background_cfg_c
+
+`endif // __21_REG_BACKGROUND_CFG_SV__

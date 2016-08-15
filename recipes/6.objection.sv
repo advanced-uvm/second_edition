@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   6.objection.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __6_OBJECTION_SV__
+   `define __6_OBJECTION_SV__
+
 // class: objection_c
 // A simpler objection class that removes hierarchy-related things.
 class objection_c extends uvm_object;
@@ -55,3 +65,5 @@ class objection_c extends uvm_object;
       last_dropped_time = $realtime();
    endfunction : clear
 endclass : objection_c
+
+`endif // __6_OBJECTION_SV__

@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   agent.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __AGENT_SV__
+   `define __AGENT_SV__
+
 // class: agent_c
 class agent_c extends uvm_agent;
    `uvm_component_utils_begin(my_pkg::agent_c)
@@ -68,3 +78,5 @@ class agent_c extends uvm_agent;
       end
    endtask: pre_reset_phase
 endclass : agent_c
+
+`endif // __AGENT_SV__

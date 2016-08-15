@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   22.streaming_comparator.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __22_STREAMING_COMPARATOR_SV__
+   `define __22_STREAMING_COMPARATOR_SV__
+
 class streaming_comparator_c #(type TYPE=uvm_object) extends uvm_component;
    `uvm_component_utils_begin(cmn_pkg::streaming_comparator_c#(TYPE))
       `uvm_field_int(continuity,        UVM_DEFAULT | UVM_NOPACK | UVM_NOCOMPARE | UVM_DEC)
@@ -376,3 +386,5 @@ class streaming_comparator_c #(type TYPE=uvm_object) extends uvm_component;
       ->q_changed;
    endfunction : write_act
 endclass : streaming_comparator_c
+
+`endif // __22_STREAMING_COMPARATOR_SV__

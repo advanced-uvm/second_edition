@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File: 17.multi_subscriber.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __17_MULTI_SUBSCRIBER_SV__
+   `define __17_MULTI_SUBSCRIBER_SV__
+
 class multi_subscriber_c#(type TYPE=uvm_sequence_item) extends uvm_component;
    `uvm_component_utils_begin(multi_subscriber_c)
       `uvm_field_int(num_exports, UVM_COMPONENT | UVM_DEC)
@@ -84,3 +94,6 @@ class multi_subscriber_c#(type TYPE=uvm_sequence_item) extends uvm_component;
                                          int _idx);
    endfunction : write_item
 endclass : multi_subscriber_c
+
+`endif // __17_MULTI_SUBSCRIBER_SV__
+

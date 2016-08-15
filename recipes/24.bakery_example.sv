@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   24.bakery_example.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __24_BAKERY_EXAMPLE_SV__
+   `define __24_BAKERY_EXAMPLE_SV__
+
 localparam NUM_BAKERS = 4;
 localparam NUM_CUSTOMERS = 50;
 
@@ -242,3 +252,5 @@ class bakery_c extends uvm_agent;
       return UVM_TLM_ACCEPTED;
    endfunction : nb_transport_fw
 endclass : bakery_c
+
+`endif // __24_BAKERY_EXAMPLE_SV__

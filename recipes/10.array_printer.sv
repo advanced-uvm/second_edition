@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   10.array_printer.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __10_ARRAY_PRINTER_SV__
+   `define __10_ARRAY_PRINTER_SV__
+
 // typedefs for arrays
 typedef byte unsigned      ubyte_t;
 typedef byte               byte_arr_t[];
@@ -58,3 +68,4 @@ static arr_sprinter_c#(uintq_t)       uintq_sprinter_c       = new();
 `define cmn_bit16q_sprint(DATA)       cmn_pkg::bit16q_sprinter_c::sprint_array(DATA)
 `define cmn_intq_sprint(DATA)         cmn_pkg::intq_sprinter_c::sprint_array(DATA)
 `define cmn_uintq_sprint(DATA)        cmn_pkg::uintq_sprinter_c::sprint_array(DATA)
+`endif // __10_ARRAY_PRINTER_SV__

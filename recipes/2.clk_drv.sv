@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   2.clk_drv.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __2_CLK_DRV_SV__
+   `define __2_CLK_DRV_SV__
+
 class clk_drv_c extends uvm_driver;
    `uvm_component_utils_begin(cmn_pkg::clk_drv_c)
       `uvm_field_string(intf_name,     UVM_COMPONENT)
@@ -68,3 +78,5 @@ class clk_drv_c extends uvm_driver;
          #(period_ps * 1ps) clk_vi.clk = ~clk_vi.clk;
    endtask : run_phase
 endclass : clk_drv_c
+
+`endif // __2_CLK_DRV_SV__

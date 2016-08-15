@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   23.cseq.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __23_CSEQ_SV__
+   `define __23_CSEQ_SV___
+
 class cseq_c#(type DOWN_REQ=uvm_sequence_item,
                    DOWN_TRAFFIC=DOWN_REQ,
                    UP_REQ=DOWN_REQ,
@@ -115,3 +125,5 @@ class cseq_c#(type DOWN_REQ=uvm_sequence_item,
    virtual function UP_TRAFFIC create_up_traffic(ref DOWN_TRAFFIC _down_traffic);
    endfunction : create_up_traffic
 endclass : cseq_c
+
+`endif // __23_CSEQ_SV__

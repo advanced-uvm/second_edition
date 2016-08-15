@@ -1,3 +1,17 @@
+// ***********************************************************************
+// File:   mon.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+
+`ifndef __MON_SV__
+
+
+   `define __MON_SV__
+
+
 // class: mon_c
 class mon_c extends uvm_monitor;
    `uvm_component_utils_begin(my_pkg::mon_c)
@@ -143,3 +157,6 @@ class mon_c extends uvm_monitor;
       downstream_port.write(_item);
    endfunction : write_upstream
 endclass : mon_c
+
+`endif // __MON_SV__
+

@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   base_test.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __BASE_TEST_SV__
+   `define __BASE_TEST_SV__
+
 // class: base_test_c
 class base_test_c extends uvm_test;
    `uvm_component_utils_begin(base_test_c)
@@ -99,3 +109,5 @@ class base_test_c extends uvm_test;
       cfg.sample_cg();
    endfunction : randomize_cfg
 endclass : base_test_c
+
+`endif // __BASE_TEST_SV__

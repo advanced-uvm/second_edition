@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   8.messaging_macros.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __8_MESSAGING_MACROS_SV__
+   `define __8_MESSAGING_MACROS_SV__
+
 ////////////////////////////////////////////
 // macro: `cmn_base_msg(LVL, TYPE, MSG, FILE, LINE)
 // base-level macro used by the real macros
@@ -98,3 +108,5 @@
 
 `define cmn_warn_intf(MSG) \
    `cmn_base_intf(UVM_NONE, UVM_WARNING, MSG, `uvm_file, `uvm_line, $sformatf("%m"))
+
+`endif // __8_MESSAGING_MACROS_SV__

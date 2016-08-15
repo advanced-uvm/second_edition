@@ -1,3 +1,13 @@
+// ***********************************************************************
+// File:   5.watchdog.sv
+// Author: bhunter
+/* About:
+   Copyright (C) 2015-2016  Brian P. Hunter
+ *************************************************************************/
+
+`ifndef __5_WATCHDOG_SV__
+   `define __5_WATCHDOG_SV__
+
 // class: watchdog_c
 class watchdog_c extends uvm_component;
    `uvm_component_utils_begin(global_watchdog_c)
@@ -83,3 +93,5 @@ class watchdog_c extends uvm_component;
       `cmn_info((str))
    endfunction : objector_report
 endclass : watchdog_c
+
+`endif // __5_WATCHDOG_SV__
