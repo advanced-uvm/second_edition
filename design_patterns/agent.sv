@@ -2,7 +2,7 @@
 // File:   agent.sv
 // Author: bhunter
 /* About:
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
  *************************************************************************/
 
 `ifndef __AGENT_SV__

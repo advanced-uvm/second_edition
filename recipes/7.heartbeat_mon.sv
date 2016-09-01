@@ -2,7 +2,7 @@
 // File:   7.heartbeat_mon.sv
 // Author: bhunter
 /* About:
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
  *************************************************************************/
 
 `ifndef __7_HEARTBEAT_MON_SV__

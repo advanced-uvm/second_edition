@@ -3,7 +3,7 @@
 // File:   trans_level.sv
 // Author: bhunter
 /* About:  Run test with neither the PHY nor the LINK level sequences populated.
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __TRANS_LEVEL_SV__

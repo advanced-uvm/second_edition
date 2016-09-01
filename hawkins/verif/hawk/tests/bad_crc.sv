@@ -3,7 +3,7 @@
 // File:   bad_crc.sv
 // Author: bhunter
 /* About:  Enable Bad CRC generation.
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __BAD_CRC_SV__

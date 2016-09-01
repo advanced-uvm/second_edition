@@ -3,7 +3,7 @@
 // File:   cmn_clk_intf.sv
 // Author: bhunter
 /* About:  Common Clock Interface
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 

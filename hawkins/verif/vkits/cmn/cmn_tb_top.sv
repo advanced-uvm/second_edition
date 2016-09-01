@@ -2,10 +2,7 @@
 // ***********************************************************************
 // File:   cmn_tb_top.sv
 // Author: bhunter
-/* About:  Basic test extends the base test and starts a training sequence
-           on both the RX and TX agent. This is done here to show that
-           numerous sequences can be started independently on a chaining
-           sequencer.
+/* About:  `include this file into your tb_top
    Copyright (C) 2015-2016  Brian P. Hunter
    *************************************************************************/
 

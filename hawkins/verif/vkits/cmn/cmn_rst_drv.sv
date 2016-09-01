@@ -2,7 +2,7 @@
 // File:   cmn_rst_drv.sv
 // Author: bhunter
 /* About:
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
  *************************************************************************/
 
 `ifndef __CMN_RST_DRV_SV__

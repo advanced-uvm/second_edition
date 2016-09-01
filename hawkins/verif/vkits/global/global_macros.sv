@@ -2,7 +2,7 @@
 // File:   global_macros.sv
 // Author: bhunter
 /* About:  Global Macros
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __GLOBAL_MACROS_SV__

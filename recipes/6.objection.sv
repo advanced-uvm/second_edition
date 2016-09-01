@@ -2,7 +2,7 @@
 // File:   6.objection.sv
 // Author: bhunter
 /* About:
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
  *************************************************************************/
 
 `ifndef __6_OBJECTION_SV__

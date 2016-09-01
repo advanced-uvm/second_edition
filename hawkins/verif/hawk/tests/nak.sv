@@ -3,7 +3,7 @@
 // File:   nak.sv
 // Author: bhunter
 /* About:  Enable NAKs.
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __NAK_SV__

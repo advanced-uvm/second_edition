@@ -2,7 +2,7 @@
 // File:   cmn_uid.sv
 // Author: bhunter
 /* About:  Unique Identifiers
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __CMN_UID_SV__

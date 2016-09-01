@@ -3,7 +3,7 @@
 // File:   global_heartbeat_mon.sv
 // Author: bhunter
 /* About:  Global Heartbeat Monitor
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __GLOBAL_HEARTBEAT_MON_SV__

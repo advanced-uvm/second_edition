@@ -3,7 +3,7 @@
 // File:   cmn_rst_intf.sv
 // Author: bhunter
 /* About:  Common Reset Interface
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 

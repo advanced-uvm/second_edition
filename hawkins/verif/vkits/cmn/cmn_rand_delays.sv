@@ -3,7 +3,8 @@
 // Author: bhunter
 /* About:  Contains a random delay class.
 
-   Copyright (C) 2015  Brian P. Hunter *************************************************************************/
+   Copyright (C) 2015  Brian P. Hunter
+*************************************************************************/
 
 `ifndef __CMN_RAND_DELAYS_SV__
    `define __CMN_RAND_DELAYS_SV__

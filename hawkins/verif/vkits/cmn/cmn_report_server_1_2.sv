@@ -5,7 +5,7 @@
            on both the RX and TX agent. This is done here to show that
            numerous sequences can be started independently on a chaining
            sequencer.
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 `ifndef __CMN_REPORT_SERVER_1_2_SV__

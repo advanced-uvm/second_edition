@@ -3,7 +3,7 @@
 // File:   global_env.sv
 // Author: bhunter
 /* About:  Common package
-   Copyright (C) 2015-2016  Brian P. Hunter
+   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
    *************************************************************************/
 
 
