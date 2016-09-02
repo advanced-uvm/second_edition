@@ -2,7 +2,7 @@
 // File:   global_watchdog.sv
 // Author: bhunter
 /* About:  Kills runaway simulations.
-   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
+   Copyright (C) 2015-2016  Cavium, Inc. All rights reserved.
    *************************************************************************/
 
 `ifndef __GLOBAL_WATCHDOG_SV__

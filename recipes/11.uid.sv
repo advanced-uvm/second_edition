@@ -2,7 +2,7 @@
 // File:   11.uid.sv
 // Author: bhunter
 /* About:
-   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
+   Copyright (C) 2015-2016  Cavium, Inc. All rights reserved.
  *************************************************************************/
 
 `ifndef __11_UID_SV__

@@ -2,7 +2,7 @@
 // File:   mon.sv
 // Author: bhunter
 /* About:
-   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
+   Copyright (C) 2015-2016  Cavium, Inc. All rights reserved.
  *************************************************************************/
 
 

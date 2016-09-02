@@ -3,7 +3,7 @@
 // File:   passive.sv
 // Author: bhunter
 /* About:  Adds a passive agent to the environment.
-   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
+   Copyright (C) 2015-2016  Cavium, Inc. All rights reserved.
    *************************************************************************/
 
 `ifndef __PASSIVE_SV__

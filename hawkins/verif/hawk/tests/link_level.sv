@@ -3,7 +3,7 @@
 // File:   link_level.sv
 // Author: bhunter
 /* About:  Run without the PHY level enabled.
-   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
+   Copyright (C) 2015-2016  Cavium, Inc. All rights reserved.
    *************************************************************************/
 
 `ifndef __LINK_LEVEL_SV__

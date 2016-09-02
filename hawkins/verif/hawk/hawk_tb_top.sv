@@ -3,7 +3,7 @@
 // File:   hawk_tb_top.sv
 // Author: bhunter
 /* About:  Hawkins interface testbench.
-   Copyright (C) 2015-2016  Brian P. Hunter, Cavium
+   Copyright (C) 2015-2016  Cavium, Inc. All rights reserved.
    *************************************************************************/
 
 import uvm_pkg::*;
