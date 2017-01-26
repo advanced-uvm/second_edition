@@ -9,7 +9,7 @@
    `define __9_TOPOLOGY_PRINTING_SV__
 
    ////////////////////////////////////////////
-   // func: start_of_simualtion_phase
+   // func: start_of_simulation_phase
    // Print the topology
    virtual function void start_of_simulation_phase(uvm_phase phase);
       int topo_depth;
